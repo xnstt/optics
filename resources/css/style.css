@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica, sans-serif;
 }
 
 div {
@@ -23,7 +24,6 @@ height: 30rem;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- font-family: "Helvectica";
  position: fixed;
  width: 960px;
  margin-top: 1rem;
@@ -89,7 +89,7 @@ nav span {
 /* end of header */
 
 .catalogue {
-  width: 960px;
+  max-width: 960px;
   display: flex;
   justify-content: center;
   margin-top: 3rem;
@@ -117,16 +117,24 @@ nav span {
   text-align: center;
 }
 
+/* that is the end */
+/*new container below*/
 .info {
+  max-width: 960px;
   display: flex;
-  justify-content: center;
-  width: 960px;
-  font-family: "Helvetica", sans-serif;
-  margin-bottom: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
 
 }
 
-.info h2 {
+.infoblock {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+
+}
+
+.infoblock h2 {
   color: white;
   background-color: cadetblue;
   font-weight: bold;
