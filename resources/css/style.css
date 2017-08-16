@@ -14,7 +14,6 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 height: 30rem;
-
 }
 
 /* banner begin */
@@ -78,7 +77,6 @@ nav span {
 .announcement h1 {
   text-transform: uppercase;
   background-color: white;
-  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
@@ -164,4 +162,25 @@ justify-content: center;
 .footer_title img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+@media screen and (max-width:1024px){
+  header{
+    height: 22rem;
+  }
+
+  .banner{
+    margin-top: 0;
+  }
+  .shoutout{
+
+  }
+  .announcement{
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .announcement h1{
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
 }
